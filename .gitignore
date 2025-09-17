@@ -1,55 +1,44 @@
-# Prerequisites
-*.d
-
-# Object files
 *.o
-*.ko
-*.obj
-*.elf
+*.pyc
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# eclipse setting
+.settings
+.cproject
+.project
 
-# Precompiled Headers
-*.gch
-*.pch
+# vscode setting
+.vscode
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Example project files
+examples/**/sdkconfig
+examples/**/sdkconfig.old
+examples/**/build
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Unit test app files
+tools/unit-test-app/sdkconfig
+tools/unit-test-app/sdkconfig.old
+tools/unit-test-app/build
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Doc build artifacts
+docs/*/_build/
+docs/*/doxygen-warning-log.txt
+docs/*/sphinx-warning-log.txt
+docs/*/sphinx-warning-log-sanitized.txt
+docs/*/xml/
+docs/*/xml_in/
+docs/*/man/
+docs/doxygen_sqlite3.db
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# emacs
+.dir-locals.el
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# emacs temp file suffixes
+*~
+.#*
+\#*#
 
-# debug information files
-*.dwo
+# eclipse setting
+.settings
+
+# MacOS directory files
+.DS_Store
